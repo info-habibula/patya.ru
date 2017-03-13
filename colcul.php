@@ -1,4 +1,6 @@
 <?php
-echo "аолсросио";
-echo "Ражихан Нурмагомедов: <br> тел.: 8 928 509 50 06";
+$chislo1=
+$chislo2=
+$znaki=
+$rezultat=
 ?>
