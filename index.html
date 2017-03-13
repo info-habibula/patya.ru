@@ -5,12 +5,14 @@
  </head>
  <body>
  	<form action="colcul.php">
- 		<p><b>Введите 1 число</b></p>
- 		<p><input required type="text" name="chislo1"></p>
- 		<p><b>Введите 2 число</b></p>
- 		<p><input required type="text" name="chislo1"></p>
- 		<p><b>Вычислить</b></p>
- 		<p><input required type="submit" name="chislo1"></p>
+ 		<p><b>Введите 1 число</b> <input required type="text" name="chislo1"> </p>
+ 		<p><b>Введите 2 число</b> <input required type="text" name="chislo2"></p>
+ 		<p><b>Выберите действие</b> <input required type="text" name="znak">
+ 		<select name="znaki">
+           <option value="1">+</option>
+           <option value="2">/</option>
+        </select></p>
+ 		<p><button type="submit">Вычислить</button> <input required type="text" name="chislo1"></p>
  	</form>
  </body>
 </html>
